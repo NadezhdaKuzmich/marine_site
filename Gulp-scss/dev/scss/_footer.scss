@@ -1,0 +1,55 @@
+#footer {
+    .footer-panel {
+        background: $footer-blue;
+        font-size: 14px;
+        line-height: 150%;
+        li,
+        a {
+            color: $a-grey;
+            &:hover {
+                color: $card-back;
+            }
+        }
+        .row {
+            overflow: hidden;
+            padding: 30px 63px 30px 30px;
+            h5 {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 150%;
+                margin: 0 0 16px;
+            }
+        }
+        .column li {
+            display: table;
+            margin: 0 0 8px;
+        }
+        li.none {
+            margin-bottom: 0;
+        }
+    }
+}
+.info {
+    color: $white;
+    background: $dark-blue;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    padding: 10px 57px;   
+}
+.fons-f {
+    font-size: 13px;
+    line-height: 150%;
+}
+.end {
+    background: $white;
+    a {
+        display: inline-block;
+        padding: 10px 258px 10px 259px;
+        color: $dark-blue; 
+        &:hover {
+            color: $white;
+            background: $hover-unsub;
+        }
+    }
+}

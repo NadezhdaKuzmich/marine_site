@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    background: $background;
+}
+#wrapper {
+    position: relative;
+    min-width: 640px;
+    width: 100%;
+    overflow: hidden;
+}
+.container {
+    @include centerBlock(640px, 20px);
+    overflow: hidden;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+address {
+    font-style: normal;
+}

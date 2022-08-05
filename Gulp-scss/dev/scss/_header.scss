@@ -1,0 +1,40 @@
+#header {
+    .poster {
+        position: relative;
+        width: 100%;
+        min-width: 600px;
+        min-height: 397px;
+        background: url(../images/poster.png) no-repeat center center;
+        background-size: cover;
+        overflow: hidden;
+        a {
+            width: 162px;
+            height: 75px;
+            margin: 30px 30px 0 0;
+            transition: $speed;
+            &:hover {
+                transform: scale(1.01);
+            }
+        }
+        h1 {
+            font-family: 'Bebas Neue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 61px;
+            line-height: 61px;        
+            color: $white;
+            margin: 268px 30px 7px;
+        }
+    }
+    .text {
+        background: $dark-blue;
+        color: $white;
+    }
+    h2 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+        padding: 16px 30px;
+    }
+}
